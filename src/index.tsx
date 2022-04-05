@@ -3,6 +3,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { createModel } from "xstate/lib/model";
 import { useMachine } from "@xstate/react";
+import { ContextFrom, EventFrom } from "xstate";
 
 const userModel = createModel(
   {
